@@ -1,0 +1,30 @@
+{
+  "name": "excel-file-reader-ts",
+  "version": "1.0.0",
+  "description": "An npm package to read Excel files and return the number of rows.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "build": "tsc",
+  "keywords": [
+    "excel",
+    "xlsx",
+    "rows",
+    "count",
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "author": "Rajasekar E <rajasekar_e_c@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": ["dist"],
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3",
+    "xlsx": "^0.18.5"
+  }
+}
